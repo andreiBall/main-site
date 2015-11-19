@@ -1,0 +1,135 @@
+@charset "windows-1251";
+    *{
+	   margin: 0;
+	   padding: 0;
+	}
+
+    body{
+	background-color:#ffffff;
+	font-family:arial;
+	color:#333;
+	cursor:default;
+	}
+	
+    a img {
+	border:0px none;
+	}
+	
+    #wrap{
+	width:95%;
+	margin:0 auto;
+	}
+	
+    #list{
+	    background-color:white;
+		margin-bottom:10px;
+		padding:30px;
+		overflow: hidden;
+        -webkit-box-shadow: 0px 1px 5px 1px #ddd;
+        -moz-box-shadow: 0px 1px 5px 1px #ddd;
+        box-shadow: 0px 1px 5px 1px #ddd;
+	}
+    h1{
+	    font-size:1.5em;
+	}
+    
+	h2 {
+	    margin: 0px 0px 0px 12.5%; /* Значения отступов */
+		font-size: 28px;
+		font-family: Times New Roman;
+	}
+	
+	a {
+	    color:#6a543a;
+	}    
+    
+	p  {
+	   font-family: Times New Roman;
+	} 
+	
+	ul {
+	    padding: 0;
+	    margin: 0;
+	}
+    a:hover {color:#A28740;text-decoration: none;}
+
+	
+    /* BEGIN list */
+   #list {
+		float: left; 
+		border: 1px solid #333; 
+		width: 10%; 
+		padding: 5px; 
+		margin: 0px 10px 20px 5px; 
+		font-size: 101%;
+   }
+   /* END list */
+   
+   /*BEGIN content*/
+   #content {
+		margin: 10px 5px 20px 12%; 
+		padding: 5px; 
+		width: 1510px; /*ширина по шаблону*/
+		/*width: 82.8%;*/ /*для преобразования сайта в адаптивный вариант*/
+   }
+
+		#content   form{
+		   border: 3px solid #C80008;
+		   /*text-align: center;*/
+	   }
+
+		.legend_form {
+		   border-bottom: 3px solid #C80008;
+		   /*font-size: 156%;*/ /*ширина наблона*/
+		    font-size: 156%;
+            text-align: center;
+			padding: 21px 0 21px 0;
+		}
+		
+		
+		.inquiry {
+		    /*font-size: 14px;*/ /*ширина наблона*/
+			font-size: 85%;
+			margin: 38px 0 0 23.6%;
+		}
+		
+		.login  {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 31.6%;
+		}
+		
+		.authorization {
+		    font-size: 87%;
+			color: red;
+			margin: 34px 0 41px 42%;/*5%*/
+		}
+				
+		#content  input{
+		  height: 31px;
+		  width: 19%;
+		  margin: 48px 0 0 0;
+		  /*width: 293;*/ /*ширина по шаблону*/ 
+		}
+		
+		#content  button{
+		   width: 16%;
+		   height: 45px;
+		   margin: 34px 0 0 0; /*5.8%*/
+		   background-color: #ffdd22;
+		   border-radius: 10px;
+		   border: none;
+		   border-bottom: 3px solid #ff8d33;
+		   font-size: 100%;
+		   margin-left: 42%;
+		   /*width: 256px;*/ /*ширина по шаблону*/
+		}
+
+   /*END content*/
+   
+   /* Begin Вспомогательные стили*/
+       .FloatLeft {
+	       float: left;
+	   }
+   /* END Вспомогательные стили*/
+   

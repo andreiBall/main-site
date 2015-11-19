@@ -1,0 +1,205 @@
+@charset "windows-1251";
+    *{
+	   margin: 0;
+	   padding: 0;
+	}
+
+    body{
+	background-color:#ffffff;
+	font-family:arial;
+	color:#333;
+	cursor:default;
+	}
+	
+    a img {
+	border:0px none;
+	}
+	
+    #wrap{
+	width:95%;
+	margin:0 auto;
+	}
+	
+    #list{
+	    background-color:white;
+		margin-bottom:10px;
+		padding:30px;
+		overflow: hidden;
+        -webkit-box-shadow: 0px 1px 5px 1px #ddd;
+        -moz-box-shadow: 0px 1px 5px 1px #ddd;
+        box-shadow: 0px 1px 5px 1px #ddd;
+	}
+    h1{
+	    font-size:1.5em;
+	}
+    
+	h2 {
+	    margin: 0px 0px 0px 12.5%; /* Значения отступов */
+		font-size: 28px;
+		font-family: Times New Roman;
+	}
+	
+	a {
+	    color:#6a543a;
+	}    
+    
+	p  {
+	   font-family: Times New Roman;
+	} 
+	
+	ul {
+	    padding: 0;
+	    margin: 0;
+	}
+    
+	a:hover {
+	    color:#A28740;
+	    text-decoration: none;
+	}
+
+	
+    /* BEGIN list */
+   #list {
+		float: left; 
+		border: 1px solid #333; 
+		width: 10%; 
+		padding: 5px; 
+		margin: 0px 10px 20px 5px; 
+		font-size: 101%;
+   }
+   /* END list */
+   
+   /*BEGIN content*/
+   #content {
+		margin: 10px 5px 20px 12%; 
+		padding: 5px; 
+		width: 1510px; /*ширина по шаблону*/
+		/*width: 82.8%;*/ /*для преобразования сайта в адаптивный вариант*/
+   }
+
+		#content   form{
+		   border: 3px solid #C80008;
+		   /*text-align: center;*/
+	   }
+
+		.legend_form {
+		   border-bottom: 3px solid #C80008;
+		   /*font-size: 156%;*/ /*ширина наблона*/
+		    font-size: 156%;
+            text-align: center;
+			padding: 21px 0 21px 0;
+		}
+		
+		
+		.inquiry {
+		    /*font-size: 14px;*/ /*ширина наблона*/
+			font-size: 85%;
+			margin: 38px 0 0 23.6%;
+		}
+		
+		.name  {
+		   display: inline-block;
+		   font-size: 18px;
+		   margin: 47px 16px 0 37.5%;
+		}
+		
+		.surname  {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 35%;
+		}
+		
+		.login  {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 35.9%;
+		}
+		
+		.password {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 35.3%;		
+		}
+		
+		.confirmation {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 27.2%;		
+		}
+		
+		.mail {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 35.6%;		
+		}
+		
+		
+		
+		.authorization {
+		    font-size: 87%;
+			color: red;
+			margin: 0px 0 0 41.5%;
+		}
+		
+		.inquiry_reg {
+		   margin: 34px 0 0px 31.3%;
+		}
+				
+		#content  input[type="text"]{
+		  height: 31px;
+		  width: 19%;
+		  margin: 0px 0 20px 0;
+		  /*width: 293;*/ /*ширина по шаблону*/ 
+		}
+		
+		.captcha {
+		   display: inline;
+		   font-size: 18px;
+		   margin:0 16px 0 25.3%;
+		}
+		
+		.captcha_input {
+		    width: 9.5% !important;
+		}
+	
+	    .fields {
+		    margin:0 16px 0 620px;
+			color: #9f9f9f;
+			font-size: 14px;
+		}
+	
+	    .length {
+		    margin:0 16px 0 627px;
+			color: #9f9f9f;
+			font-size: 14px;
+		}
+	
+		#content  a {
+		  margin: 0 5px 0 43%;
+		  color: red;
+		}
+		
+		
+		#content sup {
+		   color: red;
+		}
+		
+		#content  button{
+		   width: 16%;
+		   height: 45px;
+		   margin: 0px 0 0 0; /*5.8%*/
+		   background-color: #ffdd22;
+		   border-radius: 10px;
+		   border: none;
+		   border-bottom: 3px solid #ff8d33;
+		   font-size: 100%;
+		   margin: 27px 0 55px 623px;
+		   /*width: 256px;*/ /*ширина по шаблону*/
+		}
+
+   /*END content*/
+   
+   /* Begin Вспомогательные стили*/
+
+   /* END Вспомогательные стили*/
+   

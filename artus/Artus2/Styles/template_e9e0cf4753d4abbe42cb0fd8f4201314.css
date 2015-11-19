@@ -1,0 +1,113 @@
+
+
+/* Start:/local/templates/.default/components/bitrix/breadcrumb/.default/style.css?1432646957947*/
+.bx_breadcrumbs{
+    margin-bottom:15px;
+    padding-top:0px
+}
+.bx_breadcrumbs ul{
+    margin:0;
+    padding:0
+}
+.bx_breadcrumbs ul li{
+    display:inline-block;
+    line-height:20px
+}
+.bx_breadcrumbs ul li a{
+    display:block;
+    padding:0 15px;
+    background:url(/local/templates/.default/components/bitrix/breadcrumb/.default/images/breadcrumbs_arrow.png) no-repeat center right;
+    color:#555;
+    text-decoration:none;
+    font-size:11px;
+    opacity:.5
+}
+.bx_breadcrumbs ul li:first-child a{padding-left:0}
+.bx_breadcrumbs ul li:last-child  a{background:none}
+.bx_breadcrumbs ul li a:hover{
+    text-decoration:underline;
+    line-height:20px;
+    opacity:1
+}
+.bx_breadcrumbs ul li span{
+    display:block;
+    padding:0 15px;
+    color:#aaa;
+    text-decoration:none;
+    font-size:11px
+}
+.bx_breadcrumbs,
+.bx_breadcrumbs ul li{
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    -ms-transition:all 0.3s ease;
+    -o-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+/* End */
+
+
+/* Start:/local/templates/main/template_styles.css?14449642151122*/
+code,
+pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #333333;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+code {
+  padding: 2px 4px;
+  color: #d14;
+  white-space: nowrap;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+pre.prettyprint {
+  margin-bottom: 20px;
+}
+
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.presentation_blocks .block img {
+    display: block;
+    max-width: 248px !important;
+    border-top: solid 1px #d9d9d9;
+    border-left: solid 1px #d9d9d9;
+    border-right: solid 1px #d9d9d9;
+}
+
+
+
+/* End */
+/* /local/templates/.default/components/bitrix/breadcrumb/.default/style.css?1432646957947 */
+/* /local/templates/main/template_styles.css?14449642151122 */

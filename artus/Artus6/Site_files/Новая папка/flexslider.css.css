@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	
+	<meta name="author" content="Интернет-агентство «Артус», «1C.Bitrix»" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta name="viewport" content="width=1170">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+		
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<link type="image/x-icon" href="/local/templates/main_777/images/icon_16.ico" rel="shortcut icon" />
+	<link type="image/x-icon" href="/local/templates/main_777/images/icon_16.ico" rel="icon" />
+	<link rel="apple-touch-icon" href="/local/templates/main_777/images/icon_16.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="/local/templates/main_777/images/icon_72.png"/>
+	<link rel="apple-touch-icon" sizes="32x32" href="/local/templates/main_777/images/icon_32.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="/local/templates/main_777/images/icon_120.png">
+    
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta name="robots" content="index, follow" />
+<link href="/bitrix/js/main/core/css/core.css?14375808403963" type="text/css"  rel="stylesheet" />
+<link href="/_v/_css/main_styles.css?1446232805156401" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/style/main.css?144619711215656" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/style/main_max_width_1840.css?1444983599110" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/js/formstyler/jquery.formstyler.css?14382603129170" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/js/swiper/swiper.css?143826031218346" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/js/bxslider/jquery.bxslider.css?14382603124825" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/js/flexslider/flexslider.css?14436879745106" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/js/selectbox/customSelectBox.css?14382603122561" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/.default/components/bitrix/search.title/top_line/style.css?14388559992175" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/components/bitrix/breadcrumb/main/style.css?1438757034563" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/main_777/styles.css?1444729445104" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','USER_ID':'','SERVER_TIME':'1446353996','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'8d01c11da65fe3dbeb611be61cc214e1'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/tcsbank.kupivkredit/user_scripts.js?1442943611595"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1437580840109012"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.js?143758084016538"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ajax.js?143758084034787"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" src="/bitrix/components/bitrix/search.title/script.js?14375808679472"></script>
+<script type="text/javascript" src="/local/templates/.default/components/bitrix/sale.basket.basket.line/top_block/script.js?14447218245533"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/html5.js?14382603122429"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/formstyler/jquery.formstyler.min.js?143826031214575"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/jquery.form-validator.js?144472913766785"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/swiper/swiper.js?1438260312155136"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/swiper/swiper.jquery.js?1438260312132069"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/selectbox/SelectBox.js?14382603129657"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/masonry.js?143826031226179"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/jquery.maskedinput.js?14382603123568"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/jquery.scrollTo.js?14382603125606"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/flexslider/jquery.flexslider.js?144368797442847"></script>
+<script type="text/javascript" src="/local/templates/main_777/js/main_scripts.js?144595241516881"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cf80be5620f68c6ae6002495ff03f9a7"]); _ba.push(["host", "7770000.artusmaster.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+
+        
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css">
+
+
+	<!--Form styler or select fieds-->
+		<!--/Form styler-->
+
+
+
+	
+
+	<!-- bxSlider files --> 
+		<script type="text/javascript" src="/local/templates/main_777/js/bxslider/jquery.bxslider.js"></script>
+	<!--/bxSlider files -->
+
+    <!-- flexslider files -->
+        <!-- /flexslider files -->
+
+	
+	<title></title>
+</head>
+<body>
+<div id="panel"></div>
+
+			
+		<div class="page">
+			<div class="page_wrapper">
+
+			<!--BEGIN HEADER AND CONTENT-->
+			<div class="header_and_content_holder">
+
+		<!--Begin header block--> 
+			<div class="header">
+				<div class="inner_wrapper">
+					<div class="logo_block">
+						<a href="/"><img src="/local/templates/main_777/images/logo_1.png" alt="" title=""></a>						<!-- <div class="logo_text">ИНТЕРНЕТ-ГИПЕРМАРКЕТ</div> -->
+					</div>
+
+
+					<div class="phone_email_block">
+						<a href="tel:+74957770000" class="phone_block_link"><div class="phone_block">
+    <div class="phone"><span>+7 (495)</span> 777-0000</div>
+</div></a>						<div class="email_block">
+							<div class="email">
+	<span class="email_text">Email:</span> 
+	<a href="mailto:info@7770000.ru" class="link_email">info@7770000.ru</a>
+</div>							
+							<a href="javascript:;" class="footer_order_call link_order_call" data-popup="js_call">Заказать обратный звонок</a>
+						</div>
+					</div>
+
+
+
+					<a href="/pokupatelyam/help/" class="help_block">
+						<div class="icon">
+
+						</div>
+						<div class="text">Помощь</div>
+					</a>
+					<a href="/pokupatelyam/sposoby-zakaza/" class="how_to_order_block">
+						<div class="icon">
+
+						</div>
+						<div class="text">Как заказать </div>
+					</a>
+					<a href="/pokupatelyam/oplata-i-dostavka/" class="delivery_block">
+						<div class="icon">
+
+						</div>
+						<div class="text">Оплата и доставка</div>
+					</a>
+
+                    					<a href="/personal/" class="personal_page_block">
+						<div class="icon">
+
+						</div>
+						<div class="text">Личный кабинет </div>
+					</a>
+                    
+				</div>	
+			 </div>
+		<!--end  header block-->	
+
+
+		<!--top block-->
+			<div class="top_block">
+				<div class="inner_wrapper">
+					<div class="page_block">
+						<div class="catalog_menu_small">
+
+						<div class="btn_catalog js_btn_catalog">
+							<div class="inner">Каталог</div>
+						</div>
+
+
+						<div class="catalog_list_block_small js_catalog_list_block_small">
+
+							<div class="catalog_title_block js_btn_catalog_opened">
+								Каталог товаров
+							</div>
+							
+							
+							
+
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/vodonagrevateli/" class="catalog_list_item">Водонагреватели</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/gazovye_kolonki/" class="catalog_list_subitem">Газовые колонки</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/nakopitelnye_vodonagrevateli/" class="catalog_list_subitem">Накопительные водонагреватели</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/protochnye_vodonagrevateli/" class="catalog_list_subitem">Проточные водонагреватели</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/ventilyatory_1/" class="catalog_list_item">Вентиляторы</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/kaminy_1/" class="catalog_list_item">Камины</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/konditsionery/" class="catalog_list_item">Кондиционеры</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/mobilnye_konditsionery/" class="catalog_list_subitem">Мобильные кондиционеры</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/bytovye_split_sistemy/" class="catalog_list_subitem">Бытовые сплит-системы</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/okonnye_konditsionery/" class="catalog_list_subitem">Оконные кондиционеры</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/maslyanye_radiatory/" class="catalog_list_item">Масляные радиаторы</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/moyki_vozdukha/" class="catalog_list_item">Мойки воздуха</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/osushiteli/" class="catalog_list_item">Осушители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/otoplenie/" class="catalog_list_item">Отопление</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/obogrevateli/" class="catalog_list_subitem">Обогреватели</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/teplovaya_zavesa/" class="catalog_list_subitem">Тепловая завеса</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/teplovaya_pushka/" class="catalog_list_subitem">Тепловая пушка</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/ochistiteli/" class="catalog_list_item">Очистители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/promyshlennye_konditsionery/" class="catalog_list_item">Промышленные кондиционеры</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/uvlazhniteli/" class="catalog_list_item">Увлажнители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/teplyy_pol/" class="catalog_list_item">Теплый пол</a>	</div>
+						</div>
+					</div>
+
+
+
+
+						<div class="btn_promo">
+							<a href="/pokupatelyam/aktsii-i-skidki/">Акции месяца</a>
+						</div>
+						 <div class="btn_promo_small">
+							<a href="/pokupatelyam/aktsii-i-skidki/">Акции</a>
+						</div>
+
+						
+						<div id="title-search">
+	<form action="/search/index.php">
+		
+		<div class="btn_all_sections">
+    <div class="js_select custom_select all_sections_select">
+        <select name="from_section" class="">
+				<option value="">Все разделы</option>
+																	<option  value="426">Водонагреватели</option>
+																													<option  value="427">Вентиляторы</option>
+														<option  value="428">Камины</option>
+														<option  value="425">Кондиционеры</option>
+																													<option  value="429">Масляные радиаторы</option>
+														<option  value="430">Мойки воздуха</option>
+														<option  value="431">Осушители</option>
+														<option  value="432">Отопление</option>
+																													<option  value="433">Очистители</option>
+														<option  value="434">Промышленные кондиционеры</option>
+														<option  value="436">Увлажнители</option>
+														<option  value="448">Теплый пол</option>
+									</select>
+	</div>
+</div>		
+		
+		<div class="input_find"><input id="title-search-input" type="text" name="q" value="" size="40" maxlength="50" placeholder="Поиск по каталогу" autocomplete="off" /></div>
+		<div class="btn_find">
+			<input type="submit" value="Найти" name="s" class="btn_find_submit">
+		</div>
+	</form>
+</div>
+						
+<script>
+	var bx_basket1 = new BitrixSmallCart;
+</script>
+
+<div id="bx_basket1" class="bx-basket bx-opener">
+	<!--'start_frame_cache_bx_cart_block'-->
+
+
+
+	
+	<div class="bx-basket-block">
+		<a href="/cart/" class="cart_block">
+			<div class="icon"></div>
+			<div class="cart_amount_block">
+				Корзина:  <span class="amount">0</span> шт.			</div>
+		</a>
+				<input type="hidden" id="cart_amount" value="0" />
+		<input type="hidden" id="cart_sum" value="0 " />
+	</div><!--'end_frame_cache_bx_cart_block'--></div>
+
+<script>
+	bx_basket1.siteId       = 's1';
+	bx_basket1.cartId       = 'bx_basket1';
+	bx_basket1.ajaxPath     = '/bitrix/components/bitrix/sale.basket.basket.line/ajax.php';
+	bx_basket1.templateName = 'top_block';
+	bx_basket1.arParams     =  {'PATH_TO_BASKET':'/cart/','PATH_TO_PERSONAL':'/personal/','SHOW_PERSONAL_LINK':'N','SHOW_NUM_PRODUCTS':'Y','SHOW_TOTAL_PRICE':'Y','SHOW_PRODUCTS':'N','POSITION_FIXED':'N','SHOW_AUTHOR':'N','PATH_TO_REGISTER':'/login/','PATH_TO_PROFILE':'/personal/','COMPONENT_TEMPLATE':'top_block','SHOW_EMPTY_VALUES':'Y','CACHE_TYPE':'A','PATH_TO_ORDER':'={SITE_DIR.&quot;personal/order/make/&quot;}','SHOW_DELAY':'Y','SHOW_NOTAVAIL':'Y','SHOW_SUBSCRIBE':'Y','SHOW_IMAGE':'Y','SHOW_PRICE':'Y','SHOW_SUMMARY':'Y','POSITION_VERTICAL':'top','POSITION_HORIZONTAL':'right','AJAX':'N','~PATH_TO_BASKET':'/cart/','~PATH_TO_PERSONAL':'/personal/','~SHOW_PERSONAL_LINK':'N','~SHOW_NUM_PRODUCTS':'Y','~SHOW_TOTAL_PRICE':'Y','~SHOW_PRODUCTS':'N','~POSITION_FIXED':'N','~SHOW_AUTHOR':'N','~PATH_TO_REGISTER':'/login/','~PATH_TO_PROFILE':'/personal/','~COMPONENT_TEMPLATE':'top_block','~SHOW_EMPTY_VALUES':'Y','~CACHE_TYPE':'A','~PATH_TO_ORDER':'={SITE_DIR.\"personal/order/make/\"}','~SHOW_DELAY':'Y','~SHOW_NOTAVAIL':'Y','~SHOW_SUBSCRIBE':'Y','~SHOW_IMAGE':'Y','~SHOW_PRICE':'Y','~SHOW_SUMMARY':'Y','~POSITION_VERTICAL':'top','~POSITION_HORIZONTAL':'right','~AJAX':'N','cartId':'bx_basket1'};
+	bx_basket1.closeMessage = 'Скрыть';
+	bx_basket1.openMessage  = 'Раскрыть';
+	bx_basket1.activate();
+</script>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		<!--end top block-->
+
+		<!--content block-->
+			<div class="content_block">
+				<div class="inner_wrapper">
+
+				   <!--catalog block 1920-->
+					<div class="catalog_menu">
+						<div class="catalog_title_block">
+							Каталог товаров
+						</div>
+
+						<div class="catalog_list_block">
+							
+
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/vodonagrevateli/" class="catalog_list_item">Водонагреватели</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/gazovye_kolonki/" class="catalog_list_subitem">Газовые колонки</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/nakopitelnye_vodonagrevateli/" class="catalog_list_subitem">Накопительные водонагреватели</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/vodonagrevateli/protochnye_vodonagrevateli/" class="catalog_list_subitem">Проточные водонагреватели</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/ventilyatory_1/" class="catalog_list_item">Вентиляторы</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/kaminy_1/" class="catalog_list_item">Камины</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/konditsionery/" class="catalog_list_item">Кондиционеры</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/mobilnye_konditsionery/" class="catalog_list_subitem">Мобильные кондиционеры</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/bytovye_split_sistemy/" class="catalog_list_subitem">Бытовые сплит-системы</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/konditsionery/okonnye_konditsionery/" class="catalog_list_subitem">Оконные кондиционеры</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/maslyanye_radiatory/" class="catalog_list_item">Масляные радиаторы</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/moyki_vozdukha/" class="catalog_list_item">Мойки воздуха</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/osushiteli/" class="catalog_list_item">Осушители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/otoplenie/" class="catalog_list_item">Отопление</a>		<div class="catalog_list_subitems_block js_catalog_subitem_block ">
+								
+					
+					
+					
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/obogrevateli/" class="catalog_list_subitem">Обогреватели</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/teplovaya_zavesa/" class="catalog_list_subitem">Тепловая завеса</a>
+									
+							</div>
+					  <!-- second level-->
+														<div class=""><a href="/catalog/otoplenie/teplovaya_pushka/" class="catalog_list_subitem">Тепловая пушка</a>
+									
+							</div>
+														</div>
+			</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/ochistiteli/" class="catalog_list_item">Очистители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/promyshlennye_konditsionery/" class="catalog_list_item">Промышленные кондиционеры</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/uvlazhniteli/" class="catalog_list_item">Увлажнители</a>	</div>
+     <!-- first level-->
+
+	<div class="block ">
+		<a href="/catalog/teplyy_pol/" class="catalog_list_item">Теплый пол</a>	</div>
+
+						</div>
+					</div>
+					<!--end catalog block 1920-->
+
+
+
+					<!--begin page block-->
+					<div class="page_block">
+                        						                            							<div>
+															</div>
+                            
+							<h1></h1>
+						
+				<div class="block_404">
+	<img src="/local/templates/main_777/images/img_404.png" alt="" title="" width="437" height="146" class="img_404">
+	<div class="title">Страница не найдена</div>
+	
+	<p>К сожалению, введенный Вами адрес недоступен. Этому может быть несколько объяснений:</p>
+	
+	<p>Страница удалена (из-за утраты актуальности информации)<br>
+	Страница перенесена в другое место<br>
+	Возможно, при вводе адреса была пропущена какая-то буква (на самом деле, у нас самих так часто получается)<br>
+	Тем не менее, предлагаем Вам найти нужную информацию с помощью <a href="/search/">поиска</a> или вернуться на <a href="/">главную</a>.</p>
+</div>
+
+					</div><!--end page block-->
+				</div><!--content_block-->
+			</div><!--inner_wrapper-->
+		<!--end content block-->
+
+			<div class="clear"></div>
+			</div><!--header_and_content_holder-->
+		
+		</div><!--page_wrapper-->
+		<!--END HEADER AND CONTENT-->
+
+			<!--BEGIN FOOTER-->
+			<div class="footer_holder">
+				<div class="footer_top">
+					<div class="inner_wrapper">
+						<div class="bg_footer_inner">
+							<div class="inner_footer_wrapper">
+								<div class="block_1">
+									<div class="title"><a href="/o-kompanii/">О компании</a></div>
+<div class="link"><a href="/o-kompanii/news/">Новости</a></div>
+<div class="link"><a href="/o-kompanii/postavshchikam/">Поставщикам</a></div>
+<div class="link"><a href="/o-kompanii/obratnaya-svyaz/">Обратная связь</a></div>
+<div class="link"><a href="/o-kompanii/vakansii/">Вакансии</a></div>
+<br>									
+								</div>
+
+								<div class="block_2">
+									<div class="title"><a href="/pokupatelyam/">Покупателям</a></div>
+<div class="link"><a href="/pokupatelyam/aktsii-i-skidki/">Акции и скидки</a></div>
+<div class="link"><a href="/pokupatelyam/sposoby-zakaza/">Способы заказа</a></div>
+<div class="link"><a href="/pokupatelyam/postal-delivery/">Почтовая доставка</a></div>
+<div class="link"><a href="/pokupatelyam/help/">Помощь</a></div><br>
+								</div>
+
+								<div class="block_3">
+									<div class="title">
+	<a href="/uslugi-i-servis/">Услуги и сервис</a>
+</div>
+<div class="link">
+	<a href="/uslugi-i-servis/montazh/">Монтаж</a>
+</div>
+<div class="link">
+	<a href="/uslugi-i-servis/servisnoe-obsluzhivanie/">Сервисное обслуживание</a>
+</div>
+<div class="link">
+	<a href="/uslugi-i-servis/portfolio/">Портфолио</a>
+</div>
+<div class="title"><a href="/contact/">Контакты</a></div>
+<div class="link"><a href="/sitemap.php">Карта сайта</a></div>								</div>
+                                
+
+								<div class="block_4">
+									<div class="title">Контактные данные</div>
+									<a href="tel:+74957770000" class="footer_phone_link"><div class="footer_phone"><span>+7 (495)</span> 777-0000</div></a>									<div><a href="javascript:;" class="footer_order_call link_order_call" data-popup="js_call">Заказать обратный звонок</a></div>
+									<div class="footer_email"><span>Email:</span> <a href="mailto:info@7770000.ru">info@7770000.ru</a></div>
+									
+<div  class="social_link">
+	<a href="https://www.facebook.com/7770000.RU" target="_blank"  rel="nofollow"><img src="/local/templates/main_777/images/icons/icon_fb.png" alt="" title="" width="49" height="48"></a></div>
+<div  class="social_link"><a href="https://twitter.com/adsh7770000"  target="_blank"  rel="nofollow"><img src="/local/templates/main_777/images/icons/icon_tw.png" alt="" title="" width="49" height="48"></a></div>
+<div  class="social_link"><a href="http://vk.com/club96839890" target="_blank"  rel="nofollow"><img src="/local/templates/main_777/images/icons/icon_vk.png" alt="" title="" width="49" height="48"></a></div>
+<div  class="social_link"><a href="http://www.youtube.com/channel/UC9bo8Gg69Qrgjx-rgFNYltg" target="_blank"  rel="nofollow"><img src="/local/templates/main_777/images/icons/icon_yt.png" alt="" title="" width="49" height="48"></a></div>
+
+								</div>
+							 </div> 
+						 </div>  
+					 </div>
+
+				</div>
+
+				<div class="footer_bottom">
+					<div class="inner_wrapper">
+						<div class="bg_footer_inner">
+							<div class="inner_footer_wrapper">
+								<div class="block_5">
+									<div class="copyright">&copy; 2015</div>
+<div class="rights">Все права защищены</div>								</div>
+
+								<div class="block_6">
+									<div id="artus">
+									<a href="http://www.artus.ru" target="_blank" class="artus_block" title="Создание сайтов — интернет-агентство «Артус»">
+										<div class="artus_icon"><img width="69"  height="33" alt="Создание сайтов &mdash; интернет-агентство «Артус»" title="Создание сайтов &mdash; интернет-агентство «Артус»" src="http://www.artus.ru/images/logo/logo_artus_white_69x33.png"/></div>
+										<div class="artus_text">
+										<p class="artus">Создание сайтов&mdash;</p>
+										<p class="artus">интернет-агентство &laquo;Артус&raquo;.</p>
+										</div>
+									</a>
+								</div>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+			
+			<!--order call popup-->
+<div class="custom-overlay">
+</div>
+<div class="custom-popup js_call bordered_popup">
+	<div class="popup_inner">
+		<div class="title_holder">
+          		<div class="title">Заказать обратный звонок</div>
+            </div>
+		<div class="popup_block">
+			 
+             <script type="text/javascript">if (window.location.hash != '' && window.location.hash != '#') top.BX.ajax.history.checkRedirectStart('bxajaxid', 'c1b6d71cb7b30173a93a16e3e0b675d2')</script><div id="comp_c1b6d71cb7b30173a93a16e3e0b675d2">	
+<div class="info_form">
+
+	
+<form autocomplete="off" name="iblock_add" class="styled question_form" action="/_v/_js/flexslider/flexslider.css.css" method="post"><input type="hidden" name="bxajaxid" id="bxajaxid_c1b6d71cb7b30173a93a16e3e0b675d2_8BACKi" value="c1b6d71cb7b30173a93a16e3e0b675d2" /><input type="hidden" name="AJAX_CALL" value="Y" /><script type="text/javascript">
+function _processform_8BACKi(){
+	var obForm = top.BX('bxajaxid_c1b6d71cb7b30173a93a16e3e0b675d2_8BACKi').form;
+	top.BX.bind(obForm, 'submit', function() {BX.ajax.submitComponentForm(this, 'comp_c1b6d71cb7b30173a93a16e3e0b675d2', true)});
+	top.BX.removeCustomEvent('onAjaxSuccess', _processform_8BACKi);
+}
+if (top.BX('bxajaxid_c1b6d71cb7b30173a93a16e3e0b675d2_8BACKi'))
+	_processform_8BACKi();
+else
+	top.BX.addCustomEvent('onAjaxSuccess', _processform_8BACKi);
+</script>
+
+		<input type="hidden" name="sessid" id="sessid" value="8d01c11da65fe3dbeb611be61cc214e1" />
+		
+
+			
+								
+			<div class="row">
+				<div class="left"><label><span class="star">*</span>Ваше имя:</label></div>
+				<div class="right">									<input type="text" class="regular required name" placeholder="Имя" name="PROPERTY[4337][0]" size="25" value="" />
+									
+											</div>
+			</div>
+
+			<div class="row">
+				<div class="left"><label><span class="star">*</span>Телефон:</label></div>
+				<div class="right">
+														<input type="text" class="js_phone_mask" placeholder="+7 (___) ___-__-__" name="PROPERTY[4338][0]" size="25" value="" />
+									
+											</div>
+			</div>
+		
+			<div class="row ">
+					<div class="left"><label>Позвоните мне:</label></div>
+					<div class="right">
+					   <div class="radio_field ">
+						   <label class="radio_label">
+							   <input type="radio"  name="PROPERTY[4348]" value="51723" checked>
+							   <span class="label-text">Прямо сейчас</span>                        
+						   </label>
+					   </div>
+					   <br>
+					   <div class="radio_field ">
+						   <label class="radio_label">
+							   <input type="radio"  name="PROPERTY[4348]" value="51724" >
+							   <span class="label-text">C</span>                        
+						   </label>
+					   </div>
+
+					   <div class="js_select custom_select time_select">
+						   								<select name="PROPERTY[4349]">
+																												<option value="51725"  selected="selected">10:00</option>
+																					<option value="51727" >12:00</option>
+																					<option value="51726" >11:00</option>
+																				</select>
+																  <!-- <select  class="">
+						   <option>10:00</option>
+						   <option>11:00</option>
+						   <option>12:00</option>
+					   </select>-->
+					   </div>
+					   <span class="info_form_time_text">до</span>
+					   <div class="js_select custom_select time_select">
+						   								<select name="PROPERTY[4350]">
+																												<option value="51732"  selected="selected">18:00</option>
+																					<option value="51730" >16:00</option>
+																					<option value="51731" >17:00</option>
+																					<option value="51729" >15:00</option>
+																					<option value="51728" >14:00</option>
+																				</select>
+																   <!--<select class="">
+						   <option>10:00</option>
+						   <option>11:00</option>
+						   <option>12:00</option>
+					   </select>-->
+					   </div>
+
+				</div>
+			</div>
+		
+
+			<div class="row">
+				<div class="left"><label>Комментарий:</label></div>
+				<div class="right">							<textarea cols="30" class="your_question required"  placeholder="" rows="5" name="PROPERTY[PREVIEW_TEXT][0]"></textarea>
+										</div>
+			</div>
+
+				
+
+			<div class="row">
+					<div class="left">&nbsp;</div>
+					<div class="right">
+						<input type="hidden" value="Заказ звонка 01.11.2015 07:59:56" name="PROPERTY[NAME][0]">
+						<input type="submit" name="iblock_submit_feedback1" class="btn_submit" value="заказать" />
+
+					</div>
+			</div>
+
+	</form>
+</div>
+
+<style>
+	label.error{
+		font-size: 12px;
+		line-height: 11px;
+		color: red;
+	}
+	
+	
+</style></div><script type="text/javascript">if (top.BX.ajax.history.bHashCollision) top.BX.ajax.history.checkRedirectFinish('bxajaxid', 'c1b6d71cb7b30173a93a16e3e0b675d2');</script><script type="text/javascript">top.BX.ready(BX.defer(function() {window.AJAX_PAGE_STATE = new top.BX.ajax.component('comp_c1b6d71cb7b30173a93a16e3e0b675d2'); top.BX.ajax.history.init(window.AJAX_PAGE_STATE);}))</script>		</div>
+		<div class="close">
+		</div>
+	</div>
+</div>
+ <!--end order call popup--><br>			
+			<!--END FOOTER-->
+		</div><!--page-->
+		
+	<div class="custom-overlay"></div>
+	<div class="custom-popup js_addedToCart bordered_popup">   
+		<div class="popup_inner">
+				<div class="title_holder">
+					<div class="title"></div>
+				</div>  
+
+			<div class="popup_block">
+			
+				<div class="addedToCart_box">
+					<div class="addedToCart_box__foto">
+						<img src="">
+						<a href="#" title="Продолжить покупки" class="addTC_alternativeClose js_close_popup">Продолжить покупки</a>
+					</div>
+					<div class="addedToCart_box__text">
+						<div class="addTC_status">Добавлен в корзину</div>
+						<div class="addTC_decripton">В вашей корзине <span class="quantity"></span> <br>на сумму <b><span class="cart-sum"></span> р.</b></div>
+						<a href="/cart/" class="btn_more" title="Оформить заказ">Оформить заказ</a>
+						
+					</div>
+				</div>  
+					
+			 </div>
+			
+			<div class="close"></div>
+		</div>
+	</div>
+		
+<!--Default libraries-->
+
+<!--/Default libraries-->
+
+<!--Form styler or select fieds-->
+<!--/Form styler-->
+
+<!--Validator-->
+<!--/Validator-->
+
+
+<!-- bxSlider files -->
+<!--/bxSlider files -->
+
+
+
+
+
+
+	</body>
+</html>
+			

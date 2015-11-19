@@ -1,0 +1,41 @@
+#ramka{
+border-bottom:1px solid #c2c1bd;
+}
+#ramka:hover{
+border-bottom:3px solid #c2c1bd;
+}
+.forkit .tag {/*картинка-крюк*/
+  background:url('../images/iakor.png');width:1px;height:1px;
+
+}
+/*кнокпи логина и пароля*/
+input[name="auth"]{
+margin-left:-260px;
+}
+input[name="auth"]:hover{
+margin-left:-260px;
+}
+#reg{
+ margin-left:-130px;
+}
+#reg:hover{ 
+margin-left:-130px;
+}
+/*поле ввода пароля и логина*/
+#login2{
+margin-left:-260px;
+margin-top:45px;
+float:left;
+}
+#password2{
+margin-left:-130px;
+margin-top:45px;
+float:left;
+}
+#auth .message {
+margin-left:-300px;
+}
+/*галерея касяки*/
+.ug-thumb-wrapper .ug-thumb-overlay{
+	z-index:0;
+}
